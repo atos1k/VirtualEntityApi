@@ -242,6 +242,7 @@ public class VirtualEntityRegistrar {
                 VirtualEntityType.MANGROVE_BOAT,
                 VirtualEntityType.OAK_BOAT,
                 VirtualEntityType.PALE_OAK_BOAT,
+                VirtualEntityType.POPLAR_BOAT,
                 VirtualEntityType.SPRUCE_BOAT
         );
         Set<VirtualEntityType> chestBoats = Set.of(
@@ -253,6 +254,7 @@ public class VirtualEntityRegistrar {
                 VirtualEntityType.MANGROVE_CHEST_BOAT,
                 VirtualEntityType.OAK_CHEST_BOAT,
                 VirtualEntityType.PALE_OAK_CHEST_BOAT,
+                VirtualEntityType.POPLAR_CHEST_BOAT,
                 VirtualEntityType.SPRUCE_CHEST_BOAT
         );
         VirtualEntityFactory factory = VirtualEntityApi.getFactory();
